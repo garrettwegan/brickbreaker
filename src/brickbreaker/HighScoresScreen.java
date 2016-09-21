@@ -30,6 +30,7 @@ import java.util.logging.Logger;
  *
  * @author ge29779
  */
+//test
 public class HighScoresScreen extends AbstractScreen implements Comparator<String>{
 
     //Constants
