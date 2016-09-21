@@ -32,7 +32,7 @@ public class BrickBreakerMain extends JFrame {
         super("Breakin Bricks");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setPreferredSize(new Dimension(800, 600));
-        currentScreen = new HighScoresScreen();
+        currentScreen = new HighScoresScreen(150);
         
         add(currentScreen);
         //NEED TO DO THIS EVERYTIME YOU CHANGE SCREENS FOR INPUT TO WORK
